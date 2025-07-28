@@ -3,7 +3,6 @@ const numbers = [1, 2, 3];
 const doubled = numbers.map(num => num * 2); 
 console.log(doubled); // [2, 4, 6]
 
-
 //filter() – lọc phần tử thỏa điều kiện.
 const ages = [15, 20, 25, 30];
 const adults = ages.filter(age => age >= 18);
@@ -31,9 +30,6 @@ console.log(index); // 1
 const ages2 = [15, 18, 20];
 const hasAdult = ages2.some(age => age >= 18);
 console.log(hasAdult); // true
-
-//every() – trả về true nếu tất cả phần tử thỏa điều kiện.
-// flatMap() – kết hợp map() và flat().
 
 //flat() – làm phẳng mảng nhiều cấp thành mảng 1 cấp.
 const nested = [1, [2, [3, 4]]];
