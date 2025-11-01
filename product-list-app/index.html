@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced DOM & Events</title>
+  <style>
+    section {
+      padding: 20px;
+      border: 1px solid #333;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>DOM và Sự kiện Nâng Cao</h1>
+
+  <!-- Bubbling & Capturing -->
+  <section class="grandparent">
+    Grandparent
+    <div class="parent">
+      Parent
+      <div class="child">Child</div>
+    </div>
+  </section>
+
+  <!-- Page Navigation -->
+  <button id="scrollBtn">Cuộn tới phần cuối</button>
+
+  <!-- Scroll target -->
+  <section id="scrollTarget" style="margin-top: 1000px;">
+    <h2>Phần Cuối</h2>
+  </section>
+
+  <!-- DOM Traversing -->
+  <h2 class="title">DOM Traversing</h2>
+  <div class="container">
+    <p class="content">Nội dung ở đây</p>
+  </div>
+
+  <!-- Passing Arguments -->
+  <button id="buyBtn">Mua Laptop</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
